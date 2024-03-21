@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#calculator {
+    width: fit-content;
+    margin: 50px auto;
+    background-color: lightslategray;
+    padding: 25px;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 15px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    margin: 2px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#display {
+    padding: 10px;
+    border: none;
+    width: 92%;
+}
+
