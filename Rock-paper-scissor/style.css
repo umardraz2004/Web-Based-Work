@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainHeading {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.myButton {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin: 10px;
+    font-size: 5rem;
+    border-radius: 120px;
+    background-color: rgb(0, 174, 255);
+    padding: 20px;
+    cursor: pointer;
+    transition:background-color 0.5s ease ; 
+}
+.buttons:hover {
+    background-color: hsl(199, 100%, 70%);
+}
+
+#scissor {
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.menu {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.won , #displayPlayerScore{
+    color: hsl(130, 100%, 50%);
+}
+.lost, #displayComputerScore{
+    color: hsl(5, 100%, 50%);
+}
+
+.tie {
+    color: hsla(220, 100%, 50%, 0.706);
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        height: 100vh;
+    }
+    #mainHeading {
+        font-size: 1.5rem;
+    }
+    .buttons {
+        font-size: 1.5rem;
+        padding: 10px 15px;
+    }
+    #scissor {
+        align-items: center;
+        padding: 10px 15px
+    }
+    .menu {
+        font-size: 1rem;
+    }
+    .score {
+        font-size: 1rem;
+    }    
+}

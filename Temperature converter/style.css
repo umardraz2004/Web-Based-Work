@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Form {
+    text-align: center;
+    background-color: lightgray;
+    margin: auto;
+    max-width: 350px;
+    box-shadow: 0px 0px 5px 0px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#mainHeading {
+    color: rgb(0, 136, 255);
+    padding-bottom: 20px;
+}
+
+#textBox {
+    font-size: 1.3rem;
+    padding:10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.options {
+    font-size: 1.3rem;
+    padding: 10px 0px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#subBtn {
+    padding: 10px 20px;
+    margin: 20px 0px; 
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#subBtn:hover {
+    background-color: rgba(0, 128, 255, 0.628);
+}
+
+#result {
+    padding: 15px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
