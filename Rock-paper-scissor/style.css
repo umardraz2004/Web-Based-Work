@@ -63,23 +63,24 @@
 
 @media screen and (max-width: 425px) {
     .container {
-        height: 100vh;
+        height: 80vh;
     }
     #mainHeading {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .buttons {
-        font-size: 1.5rem;
-        padding: 10px 15px;
+        font-size: 2rem;
+        /* padding: 10px 15px; */
+        border: none;
     }
     #scissor {
         align-items: center;
-        padding: 10px 15px
+        padding: 20px 28px
     }
     .menu {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .score {
-        font-size: 1rem;
+        font-size: 2rem;
     }    
 }
