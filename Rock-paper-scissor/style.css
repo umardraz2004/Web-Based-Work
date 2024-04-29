@@ -62,15 +62,11 @@
 }
 
 @media screen and (max-width: 425px) {
-    .container {
-        height: 80vh;
-    }
     #mainHeading {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .buttons {
         font-size: 2rem;
-        /* padding: 10px 15px; */
         border: none;
     }
     #scissor {
