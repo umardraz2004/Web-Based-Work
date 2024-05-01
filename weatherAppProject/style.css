@@ -105,3 +105,13 @@ body {
         transform: rotate(360deg);
     }
 }
+
+@media screen and (max-width: 425px) {
+    #myInput{
+        font-size: 1.5rem;
+        max-width: 200px;
+    }
+    #findBtn {
+        font-size: 1rem;
+    }
+}
