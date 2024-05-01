@@ -1,19 +1,22 @@
 const cityName = document.getElementById('myInput');
 const getWeather = document.getElementById('myForm');
-const weatherCard = document.getElementById('container');
+const weatherCard = document.querySelector('.container');
+const loading = document.querySelector('.loading');
 const apiKey = "eb1f981613160de3c5d9795bea6adf4c";
 
 getWeather.addEventListener('submit', async event => {
     event.preventDefault();
     let City = cityName.value;
     if(City) {
-        try{
-            const weatherData = await getWeatherDate(City);
+        loading.style.display = "block";
+        try {
+            const weatherData = await getWeatherData(City);
             displayWeatherData(weatherData);
-        }
-        catch(error) {
+        } catch (error) {
             console.error(error);
-            displayError(error);
+            displayError(error.message);
+        } finally {
+            loading.style.display = "none";
         }
     }
     else {
@@ -21,13 +24,13 @@ getWeather.addEventListener('submit', async event => {
     }
 });
 
-async function getWeatherDate(city) {
+async function getWeatherData(city) {
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
-    const response = fetch(apiUrl);
-    if(!(await response).ok) {
+    const response = await fetch(apiUrl);
+    if(!response.ok) {
         throw new Error("Could not fetch weather data!");
     }
-    return (await response).json();
+    return response.json();
 }
 
 function displayWeatherData(data) {
@@ -98,5 +101,3 @@ function displayError(message) {
     weatherCard.style.display = "flex";
     weatherCard.appendChild(errorDisplay);
 }
-
-

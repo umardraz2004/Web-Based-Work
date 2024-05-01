@@ -40,7 +40,7 @@ body {
     background-color: hsl(200, 90%, 70%);
 }
 
-#container {
+.container {
     box-shadow: 0 0 10px 0 hsl(0, 0%, 50%);
     display: flex;
     flex-direction: column;
@@ -82,4 +82,26 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 20px 0;
+}
+
+.loading {
+    display: none;
+    width: 100px;
+    height: 100px;
+    border: 8px solid hsla(0, 0%, 0%, 0.75);
+    border-radius: 100px;
+    border-top-color: transparent;
+    position: absolute;
+    top: 264px;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
