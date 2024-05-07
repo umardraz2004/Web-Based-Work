@@ -4,7 +4,6 @@ const getWeather = document.getElementById('myForm');
 const weatherCard = document.querySelector('.container');
 const loading = document.querySelector('.loading');
 const apiKey = api;
-console.log(api);
 
 getWeather.addEventListener('submit', async event => {
     event.preventDefault();
