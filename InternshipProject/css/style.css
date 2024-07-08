@@ -63,7 +63,7 @@ button {
 }
 
 .header {
-    background-image: url('Assets/images/Rectangle\ 9.png');
+    background-image: url('/Assets/images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -466,7 +466,7 @@ button {
 /* `````````````````|Out courses section styling|```````````````````` */
 .our-courses {
     width: 100%;
-    background-image: url('Assets/images/Rectangle\ 9.png');
+    background-image: url('/Assets/images/bg.png');
     background-size: cover;
 }
 
