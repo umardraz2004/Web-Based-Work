@@ -147,7 +147,7 @@ h3 {
 }
 
 #special-case1 {
-    margin-top: 42px;
+    margin-top: 43px;
 }
 
 #middle-body-card2 {
@@ -170,6 +170,10 @@ h3 {
 
 .app-container .info {
     text-align: center;
+}
+
+#special-case2 {
+    margin-top: 13px;
 }
 
 .get-our-apps {
