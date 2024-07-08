@@ -1,0 +1,201 @@
+.btn {
+    padding: 12px 32px 12px 32px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.navigation {
+    width: 714px;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+.nav-container .enrol-btn {
+    width: 145px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.hero-container {
+    flex-wrap: wrap;
+    margin-left: 95px;
+}
+
+.content2 {
+    margin-left: 38px;
+    margin-top: 32px;
+}
+
+.content2 .std-enrol {
+    margin-left: 0px;
+}
+
+.content3 {
+    width: 446px;
+    height: 582px;
+    padding-left: 30px;
+}
+
+.hero-container .hero-container-div1 {
+    margin-top: 33px;
+    width: 100%;
+}
+
+.hero-container .hero-container-div1 .content1 .main-heading {
+    width: 60%;
+}
+
+.content1 .enrol {
+    font-size: 16px;
+}
+
+.content1 .enrol img {
+    padding-right: 13.2px;
+}
+
+.main {
+    margin: 100px 100px;
+}
+
+.main-component-container {
+    flex-wrap: wrap-reverse;
+}
+
+.content1 .about {
+    width: 634px;
+}
+
+
+.left-portion {
+    width: 634px;
+}
+
+.right-portion {
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.right-portion .q-heading {
+    font-size: 40px;
+}
+
+.right-portion button {
+    display: none;
+}
+
+.disable {
+    display: flex;
+    justify-content: right;
+}
+
+.left-portion {
+    padding: 40px 0 0px 0;
+}
+
+.left-portion .cards-container .card {
+    max-width: none;
+}
+
+.left-portion .cards-container {
+    width: 634px;
+}
+
+.left-portion .cards-container {
+    width: 634px;
+    border-radius: 24px;
+}
+
+.right-portion .info-text .info-item1,.info-item2{
+    display: none;
+}
+
+.info-item {
+    display: block;
+    width: 634px;
+}
+
+.card2-adjustments {
+    margin-left: 0;
+}
+
+.our-courses .container .middle {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-courses .container .middle .middle-cards {
+    width: 634px;
+    height: 418px;
+    background-color: var(--color-white);
+    border-radius: 24px;
+}
+
+.our-courses .container .middle .middle-cards .middle-body .image img {
+    width: 568px;
+    margin: -4px 18px 0 18px;
+}
+
+.our-courses .container {
+    padding: 66px 100px 100px 100px;
+}
+
+.responsive-margin-top {
+    margin-top: 80px;
+}
+
+#middle-body-card1 {
+    margin: 40px 100px 40px 0px
+}
+
+#special-case1 {
+    margin-top: 35px;
+}
+
+.get-our-apps {
+    padding: 100px 78px 100px 76px;
+}
+
+.width-adjustment1 {
+    padding-right: 0px;
+}
+
+#middle-body-card2 {
+    margin: 34px 100px 34px 40px;
+}
+
+.width-adjustment2 {
+    padding-bottom: 0px;
+}
+
+.our-courses .container .bottom button {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 157px;
+    font-size: 16px;
+}
+
+.google-play {
+    padding: 20px 31px 20px 31px;
+    width: 245px;
+}
+
+.app-store {
+    padding: 20px 31px 20px 31px;
+    width: 245px;
+}
+
+.footer {
+    padding: 70px 311px 70px 100px;
+}
+
+.footer-main-content {
+    flex-wrap: wrap;
+}
+
+.footer-main-content .contact {
+    margin-top: 45px;
+}

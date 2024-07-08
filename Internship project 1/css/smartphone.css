@@ -1,0 +1,252 @@
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.header {
+    height: 896px;
+    overflow: hidden;
+}
+
+.navigation {
+    width: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 58px;
+}
+
+.nav-container {
+    display: none;
+}
+
+.navigation .menu-bar {
+    display: block;
+}
+
+.content1 .main-heading {
+    font-size: 36px;
+}
+
+.hero-container {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.hero-container .hero-container-div1 .content1 .main-heading {
+    width: 100%;
+}
+
+.content2 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.content2 .std-enrol {
+    width: 182px;
+    height: 75px;
+}
+
+.content1 .about {
+    width: 350px;
+}
+
+.content2 .std-enrol::before {
+    width: 186px;
+    height: 84px;
+}
+
+.content2 .std-enrol .heading {
+    font-size: 30px;
+}
+
+.content2 .std-enrol span {
+    font-size: 14px;
+}
+
+.content2 .over-all-rating .rating span {
+    font-size: 30px;
+}
+
+.content2 .over-all-rating .label {
+    font-size: 14px;
+}
+
+.content2 .over-all-rating {
+    width: 160px;
+    height: 75px;
+    margin-top: 58px;
+}
+
+.content2 .over-all-rating::before {
+    width: 167px;
+    height: 83px;
+}
+
+.content3 {
+    padding-left: 0px;
+}
+
+.content3 img {
+    width: 314px;
+    overflow: hidden;
+}
+
+.main {
+    margin: 100px 32px;
+}
+
+.our-courses .container .middle {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.right-portion .q-heading {
+    font-size: 30px;
+}
+
+.info-item {
+    display: block;
+    width: 350px;
+}
+
+.left-portion .cards-container {
+    width: 350px;
+    border-radius: 24px;
+}
+
+.our-courses .container {
+    padding: 63px 0 70px 0;
+}
+
+.our-courses .container .middle .middle-cards {
+    width: 413px;
+    height: 380px;
+}
+
+.our-courses .container .middle .middle-cards .middle-body .image img {
+    width: 349px;
+    height: 240px;
+    margin: -4px 0px 0 0px;
+}
+
+.our-courses .container .middle .middle-cards .middle-body .border-last {
+    width: 349px;
+}
+
+#middle-body-card1 {
+    margin: 32px 0 0 0;
+    width: 261px;
+}
+
+#special-case1 {
+    margin-top: 42px;
+}
+
+#middle-body-card2 {
+    margin: 30px 0 32px 168px;
+    width: 264px;
+}
+
+.width-adjustment1 {
+    padding-top: 36px;
+}
+
+.our-courses .container .middle .middle-cards .middle-body .text .clock {
+    justify-content: left;
+    overflow: hidden;
+}
+
+.our-courses .container .bottom {
+    margin-right: 32px;
+}
+
+.app-container .info {
+    text-align: center;
+}
+
+.get-our-apps {
+    padding: 100px 30px 100px 30px;
+}
+
+.app-container .app {
+    flex-wrap: wrap;
+    width: 277px;
+}
+
+.app-store {
+    margin-bottom: 26px;
+}
+
+.app-store {
+    padding: 20px 38px 20px 24px;
+    width: 277px;
+}
+
+.app-store {
+    margin-right: 0;
+}
+
+.footer {
+    padding: 60px 32px 70px 32px;
+}
+
+.footer-main-content {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-main-content .links .headings {
+    text-align: center;
+}
+
+.footer-main-content .course .head {
+    margin-top: 40px;
+}
+
+.footer-main-content .contact .head {
+    margin-top: 40px;
+}
+
+.footer-main-content .links .list-item {
+    padding-left: 0;
+}
+
+.contact .list-item .form-list .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .list-item .form-list .form input {
+    width: 306px;
+    height: 39px;
+}
+
+.contact .list-item .form-list .form button {
+    position: static;
+    margin-top: 15px;
+}
+
+.footer-credits {
+    width: 350px;
+    font-size: 14px;
+}
+
+.footer-main-content .contact {
+    margin-top: 0;
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
