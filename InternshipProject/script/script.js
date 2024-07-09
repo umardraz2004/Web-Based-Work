@@ -9,10 +9,14 @@ myLogo.addEventListener('click', function(e) {
 
 toggleBtnOpen.addEventListener('click', function(e) {
     appear.style.display = 'block';
+    appear.classList.remove('active');
 });
 
 toggleBtnClose.addEventListener('click', function(e) {
-    appear.style.display = 'none';
+    setTimeout(()=> {
+        appear.style.display = 'none';
+    }, 900)
+    appear.classList.add('active');
 });
 
 const listItems = document.querySelectorAll('li');

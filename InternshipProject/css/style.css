@@ -130,6 +130,29 @@ button {
     background-color: var(--color-blue-charcoal);
     overflow: hidden;
     z-index: 5;
+    animation: right-to-left 1s ease-in-out alternate;
+}
+
+@keyframes right-to-left {
+    to {
+        transform: translateX(0%);
+    }
+    from {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes left-to-right {
+    to {
+        transform: translateX(100%);
+    }
+    from {
+        transform: translateX(0%);
+    }
+}
+
+.active{
+    animation: left-to-right 1s ease-in-out ;
 }
 
 .side-menu-bar .side-menu {
