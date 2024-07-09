@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px; /* Just for demo purposes */
+}
+
+.content {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100vh;  
+    padding: 20px;
+}
+
+.scroll-element {
+    text-align: center;
+    background-color: red;
+    padding: 200px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    margin-bottom: 200px;
+}
+
+.scroll-element.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
