@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    margin-right: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+}
+
+.card {
+    width: 25%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.inputField input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.inputField button {
+    margin-bottom: 20px;
+    margin-right: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+
+.task {
+    padding: 12px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgb(248, 230, 233);
+}
+
+.ud-card {
+    width: 25%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ud-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.udField {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+}
