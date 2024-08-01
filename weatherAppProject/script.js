@@ -1,9 +1,8 @@
-import {api} from './apiUtil.js';
 const cityName = document.getElementById('myInput');
-const getWeather = document.getElementById('myForm');
+const getWeather = document.getElementById('findBtn');
 const weatherCard = document.querySelector('.container');
 const loading = document.querySelector('.loading');
-const apiKey = api;
+const apiKey = "Your Api Key Here";
 
 getWeather.addEventListener('submit', async event => {
     event.preventDefault();
